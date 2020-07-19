@@ -1,0 +1,11 @@
+binary-search-tree specification 
+
+정수를 저장하는 vector 기반 binary search tree 구현
+다음의 연산자 구현
+1. insert n : 키값이 정수 n인 노드 저장
+2. delete n : BST에서 키값이 n인 노드 삭제
+3. depth n : n을 키로 가지는 노드의 깊이 출력
+4. children n : 키값을 n으로 가지는 노드의 자식 개수 출력
+5. height : bst의 높이 출력
+6. inorder : inorder traversal 출력
+7. preorder : preorder traversal 출력

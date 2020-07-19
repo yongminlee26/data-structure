@@ -1,0 +1,7 @@
+calculator specification
+
+계산기 구현
+
+1. infix expression을 입력으로 받으면
+2. first stack을 이용하여 postfix expression으로 변환
+3. second stack을 이용하여 postfix expression 연산

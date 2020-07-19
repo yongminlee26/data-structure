@@ -1,0 +1,31 @@
+singly linked list specification
+
+1. 정수를 저장하는 단일 링크드 리스트를 생성
+2. 다음의 명령어들을 처리하는 프로그램을 작성
+ - addFront X: 정수 X를 리스트의 가장 앞에 삽입.  (단, 1 ≤ X ≤ 100,000).  
+ - removeFront: 리스트에서 가장 앞에 있는 정수를 삭제하고, 삭제된 수를 출력. 만약 리스트가 비어 있는 경우, -1을 출력.
+ - front: 리스트의 가장 앞에 저장된 정수를 출력. 만약 리스트가 비어 있는 경우, -1을 출력.  
+ - empty: 리스트가 비어 있으면 1, 비어 있지 않으면 0을 출력.  
+ - showList: 리스트에 저장되어 있는 정수들을 앞(front)에서부터 차례대로 공백을 사이에 두고 모두 출력. 만약 리스트가 비어 있는 경우, -1을 출력.  
+ - addBack X: 정수 X를 리스트의 가장 뒤에 삽입.  (단, 1 ≤ X ≤ 100,000). 
+
+예제 입력
+11 
+showList 
+empty 
+addFront 542 
+addFront 45 
+addBack 2314 
+showList 
+addFront 88 
+addFront 484 
+addBack 315 
+removeFront 
+showList
+
+예제 출력
+-1 
+1 
+45 542 2314 
+484 
+88 45 542 2314 315
